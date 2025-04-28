@@ -6,6 +6,10 @@ __pycache__/
 .venv/
 venv/
 
+dashboard/node_modules/
+dashboard/dist/
+dashboard/build/
+
 .ipynb_checkpoints/
 
 .env
