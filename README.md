@@ -11,18 +11,18 @@ This system simulates a smart intersection where traffic lights are controlled b
 - **FastAPI** backend serving frame data, state updates, and reward information.
 - **React/TypeScript** frontend dashboard to visualize state, actions, rewards, and predictions.
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 
 ### 1. Backend (FastAPI + YOLO + LSTM)
 
-#### 🐍 Python Environment
+#### Python Environment
 ```bash
 cd backend
 python -m venv venv
 source venv/bin/activate
 ```
 
-#### 🔧 Run FastAPI
+#### Run FastAPI
 ```bash
 uvicorn api:app --reload
 ```
@@ -34,19 +34,19 @@ Make sure your YOLO model weights are downloaded and accessible, and your LSTM m
 
 ### 2. Frontend (React + TypeScript)
 
-#### 📦 Install Dependencies
+#### Install Dependencies
 ```bash
 cd dashboard
 npm install
 ```
 
-#### ▶️ Start the Dashboard
+#### ▶Start the Dashboard
 ```bash
 npm run dev
 ```
 The dashboard runs at `http://localhost:5173` (or similar).
 
-## 📊 Dashboard Features
+## Dashboard Features
 
 - Real-time traffic queue visualization
 - Signal status and action feedback
@@ -56,7 +56,7 @@ The dashboard runs at `http://localhost:5173` (or similar).
 
 ---
 
-## 📌 Dependencies
+## Dependencies
 
 ### Backend:
 - `fastapi`
